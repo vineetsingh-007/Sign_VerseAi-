@@ -1,0 +1,256 @@
+{
+    "evaluation_time": "2026-06-14 13:38:25",
+    "overall": {
+        "accuracy": 0.9326530612244898,
+        "precision_weighted": 0.9220458853744653,
+        "recall_weighted": 0.9326530612244898,
+        "f1_weighted": 0.9240833564402778
+    },
+    "per_class": {
+        "A": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "B": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "C": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "D": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "E": {
+            "precision": 0.9112903225806451,
+            "recall": 0.9416666666666667,
+            "f1": 0.9262295081967213
+        },
+        "F": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+        },
+        "G": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "H": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "I": {
+            "precision": 0.45695364238410596,
+            "recall": 0.2875,
+            "f1": 0.35294117647058826
+        },
+        "J": {
+            "precision": 0.48024316109422494,
+            "recall": 0.6583333333333333,
+            "f1": 0.5553602811950791
+        },
+        "K": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "L": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "M": {
+            "precision": 0.9917355371900827,
+            "recall": 1.0,
+            "f1": 0.995850622406639
+        },
+        "N": {
+            "precision": 0.9184549356223176,
+            "recall": 0.8916666666666667,
+            "f1": 0.904862579281184
+        },
+        "O": {
+            "precision": 0.45323741007194246,
+            "recall": 0.2625,
+            "f1": 0.3324538258575198
+        },
+        "P": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Q": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "R": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "S": {
+            "precision": 0.9873949579831933,
+            "recall": 0.9791666666666666,
+            "f1": 0.9832635983263598
+        },
+        "T": {
+            "precision": 1.0,
+            "recall": 0.9958333333333333,
+            "f1": 0.9979123173277662
+        },
+        "U": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "V": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "W": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "X": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Y": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "Z": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "0": {
+            "precision": 0.4809384164222874,
+            "recall": 0.6833333333333333,
+            "f1": 0.5645438898450946
+        },
+        "1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "2": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "3": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "4": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "5": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "6": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "7": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "8": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "9": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+        },
+        "HELLO": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "THANK YOU": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "PLEASE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "YES": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "NO": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "GOOD MORNING": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "HELP": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "DOCTOR": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "EMERGENCY": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "WATER": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "PAIN": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "MEDICINE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "AMBULANCE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    }
+}

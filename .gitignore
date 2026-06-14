@@ -1,0 +1,25 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local databases & logs
+*.db
+*.sqlite
+database/signverse.db
+logs/
+*.log
+
+# OS & Editor configurations
+.DS_Store
+.vscode/
+.idea/
+.project
+.pydevproject
