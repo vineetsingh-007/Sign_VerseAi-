@@ -354,8 +354,8 @@ def draw_template_hand_canvas(class_label, width=280, height=280):
             py = int(cy_offset + y * scale)
             pts.append((px, py))
             
-        import mediapipe as mp
-        connections = mp.solutions.hands.HAND_CONNECTIONS
+        import mediapipe.solutions.hands as mp_hands
+        connections = mp_hands.HAND_CONNECTIONS
         for start_idx, end_idx in connections:
             pt1 = pts[start_idx]
             pt2 = pts[end_idx]

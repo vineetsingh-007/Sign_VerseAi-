@@ -1,5 +1,7 @@
 import cv2
 import mediapipe as mp
+import mediapipe.solutions.hands as mp_hands
+import mediapipe.solutions.drawing_utils as mp_drawing
 import numpy as np
 import time
 
@@ -9,15 +11,14 @@ class HandDetector:
     calculates bounding boxes, and draws custom glowing futuristic HUD overlays.
     """
     def __init__(self, static_image_mode=False, max_num_hands=2, min_detection_confidence=0.7, min_tracking_confidence=0.5):
-        self.mp_hands = mp.solutions.hands
+        self.mp_hands = mp_hands
         self.hands = self.mp_hands.Hands(
             static_image_mode=static_image_mode,
             max_num_hands=max_num_hands,
             min_detection_confidence=min_detection_confidence,
             min_tracking_confidence=min_tracking_confidence
         )
-        self.mp_draw = mp.solutions.drawing_utils
-        self.mp_connect = mp.solutions.hands_connections
+        self.mp_draw = mp_drawing
 
     def find_hands(self, frame, draw=True, draw_skeleton=True, draw_joints=True, draw_bbox=True, draw_telemetry=True):
         """
